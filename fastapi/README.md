@@ -22,3 +22,5 @@ fast api 기본 구성 및 DB 연결(SQL Alchemy 2.0) 테스트용 소스입니�
 ### db 연결용
 `pip install SQLAlchemy`
 
+### 실행
+`uvicorn main:app`
