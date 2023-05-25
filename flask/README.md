@@ -22,3 +22,9 @@ flask 기본 웹 구성 및 다중 DB 연결 테스트용 소스입니다.
 `pip install flask-sqlacodegen`
 
 `flask-sqlcodegen "sql접속정보" --flask > 추출파일명.py`
+
+### 실행
+`python server.py`
+
+혹은 FLASK_APP 환경변수값 server.py로 변경 후 flask run
+(혹은 server.py -> app.py로 파일명 변경 후 flask run)
